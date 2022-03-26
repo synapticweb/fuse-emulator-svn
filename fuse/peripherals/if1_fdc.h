@@ -31,7 +31,7 @@
 
 typedef enum if1_drive_number {
 	IF1_DRIVE_1 = 0,
-	IF1_DRIVE_2,
+	IF1_DRIVE_2 = 1,
 } if1_drive_number;
 
 extern int if1_fdc_available;
